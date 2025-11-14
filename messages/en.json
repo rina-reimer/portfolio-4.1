@@ -1,0 +1,304 @@
+{
+    "languageSwitcher": "Switch from <1>{{lng}}</1> to: ",
+    "home": "Home",
+    "about": "About",
+    "projects": "work",
+    "academics": "courses",
+    "resume": "resume ↗",
+    "start": "start",
+    "selftags": [
+        "Full-Stack Development",
+        "Mobile App Development",
+        "Front-End Development",
+        "Web Development",
+        "Database Management"
+    ],
+    "name": "Rina Reimer",
+    "hero": "Hey there! My name is",
+    "hero-2-1": "a",
+    "hero-2-2": "data scientist",
+    "hero-2-3": "and",
+    "hero-2-4": "developer",
+    "hero-2-5": "researching educational psychology.",
+    "current-school": "ACMS at <a href='https://acms.washington.edu/' target='blank' rel='noopener noreferrer'>UW ↗</a>",
+    "current-job": "",
+    "featured-projects": "Featured Projects",
+    "featured-courses": "Featured Courses",
+    "school": "School: ",
+    "curr-school": "University of Washington",
+    "grad-year": "Graduation Year: ",
+    "grad-date": "March 2026",
+    "loc": "Location: ",
+    "curr-loc": "Seattle, WA",
+    "major": "Major: ",
+    "curr-major": "B.S. Applied and Computational Mathematical Sciences",
+    "tech-stack": "Tech Stack",
+    "toolbox": "Toolbox",
+    "languages": "Languages",
+    "langs": [
+        "java-coffee-cup-logo--v1",
+        "python",
+        "javascript--v1",
+        "swift",
+        "c-programming",
+        "c-plus-plus-logo",
+        "c-sharp-logo",
+        "go--v1",
+        "kotlin",
+        "ruby-programming-language",
+        "rust-programming-language",
+        "sql",
+        "typescript"
+    ],
+    "langs-name": [
+        "Java",
+        "Python",
+        "JavaScript",
+        "Swift",
+        "C",
+        "C++",
+        "C#",
+        "Go",
+        "Kotlin",
+        "Ruby",
+        "Rust",
+        "SQL",
+        "TypeScript"
+    ],
+    "frameworks": "Frameworks",
+    "fmwks": [
+        "angularjs",
+        "bootstrap--v2",
+        "tailwind_css",
+        "react-native",
+        "kubernetes",
+        "vue-js"
+    ],
+    "fmwks-name": [
+        "AngularJS",
+        "Bootstrap",
+        "TailwindCSS",
+        "React",
+        "Kubernetes",
+        "VueJS"
+    ],
+    "other": "Other",
+    "etc": [
+        "figma--v1",
+        "git",
+        "intellij-idea",
+        "linux--v1",
+        "mysql-logo",
+        "postgreesql",
+        "pandas"
+    ],
+    "etc-name": [
+        "Figma",
+        "Git",
+        "IntelliJ IDEA",
+        "Linux",
+        "MySQL",
+        "PostGreeSQL",
+        "pandas"
+    ],
+    "greeting": "Hey there!",
+    "abt1": "I'm a software developer based in Seattle, WA. I'm currently studying math and computer science at the University of Washington. Thanks for stopping by! Be sure to check out my projects and more.",
+    "abt2": "I am currently a student at the University of Washington, studying Applied and Computational Mathematical Sciences, which is a mixture of mathematics and computer science and how they relate to each other. I have challenged myself by taking difficult classes since being enrolled at UW. I have years of experience collaborating and explaining my ideas from tutoring and volunteering. I am a software developer expanding my expertise in full-stack development  through numerous personal projects. I'm always looking for opportunities to collaborate and expand my knowledge of software development.",
+    "contact": "Get in Touch!",
+    "con1": "I'm looking for industry experience and other opportunities to implement programs. You can check out my <a href='https://github.com/rina-reimer' title='Rina-Reimer Github' target='_blank' rel='noopener noreferrer'>personal projects</a> or reach me by email at <a href='mailto:rinareimer616@gmail.com' title='send me an email' target='_blank' rel='noopener noreferrer'>rinareimer616@gmail.com</a>.",
+    "projects-title": "What I have worked on:",
+    "documentation": "Documentation",
+    "project1": {
+        "title": "Seam Carving",
+        "active": false,
+        "stack": [
+            "java-coffee-cup-logo--v1"
+        ],
+        "stack-name": [
+            "Java"
+        ],
+        "desc": "Java object-oriented program utilizing Dijkstra's graph algorithm to find the path of pixels with the least energy within an image.",
+        "longdesc": "+ Java object-oriented program utilizing Dijkstra's graph algorithm to find the path of pixels with the least energy within an image.<br>+ 3-week long development stage, building upon CSE 373 curriculum.",
+        "type": "Class Group Project",
+        "role": "Main Developer",
+        "github": "",
+        "url": ""
+    },
+    "project2": {
+        "title": "Electrical Circuit Calculator",
+        "active": false,
+        "stack": [
+            "python",
+            "google-colab"
+        ],
+        "stack-name": [
+            "Python",
+            "Google Colab"
+        ],
+        "desc": "Python program that calculates voltages at nodes and current along connections in a given electrical circuit.",
+        "longdesc": "+ Python program that calculates voltages at nodes and current along connections in a given electrical circuit.<br>+ Demonstrates linear algebra expertise  with Markdown explanations.",
+        "type": "Class Project",
+        "role": "Project Creator",
+        "github": "https://github.com/rina-reimer/electrical-circuit-calculator",
+        "url": ""
+    },
+    "project3": {
+        "title": "BYJU's Capstones",
+        "active": false,
+        "stack": [
+            "python",
+            "google-colab"
+        ],
+        "stack-name": [
+            "Python",
+            "Google Colab"
+        ],
+        "tags": "machine learning | python",
+        "desc": "A collection of my Python capstone projects from BYJU's FutureSchool.",
+        "longdesc": "+ Excelled in weekly online Python training program, learning machine learning and data modeling techniques. <br>+ Mastered data cleaning/visualization and statistical representation techniques through over 100 hands-on data analysis projects with large data sets from various international sources. <br>+ Gained coding experience and deepened knowledge of machine learning models, such as Linear/Logistic Regression, Random Forest Classifier, and Fast Fourier Transformations.",
+        "type": "Class Capstone Projects",
+        "role": "Project Creator",
+        "github": "https://github.com/rina-reimer/byjus-capstones",
+        "url": ""
+    },
+    "project4": {
+        "title": "Bit Connect",
+        "active": false,
+        "stack": [
+            "java-coffee-cup-logo--v1",
+            "figma"
+        ],
+        "stack-name": [
+            "Java",
+            "Figma"
+        ],
+        "desc": "Java application aimed to connect students in person using hypothetical location data and filtered matches between users based on fields of study and interests.",
+        "longdesc": "+ Java application aimed to connect students in person using hypothetical location data and filtered matches between users based on fields of study and interests. <br>+ Teamed with fellow students using Figma, starting the project in WINFO Hackathon 2024 and continuing the implementation with help from industry professionals and self-learning.<br>+ 9-hour initial build with algorithm architecture draft and three-month deliverable design implementation, utilizing Gradle and the JVM to release documentation on the prototype.",
+        "tags": "hackathon | app development | algorithms | Java",
+        "type": "Prototype",
+        "role": "Backend Developer",
+        "github": "https://github.com/rina-reimer/bit-connect",
+        "url": ""
+    },
+    "project5": {
+        "title": "PeakMind",
+        "active": false,
+        "stack": [
+            "figma",
+            "swift",
+            "firebase"
+        ],
+        "stack-name": [
+            "Figma",
+            "Swift",
+            "Firebase"
+        ],
+        "desc": "Gamified mental health app aimed at giving users accessible and friendly resources, using AI to offer personalized recommendations.",
+        "longdesc": "+ Worked on a team to create a gamified mental health app aimed at giving users accessible and friendly resources, using artificial intelligence and natural language processing to offer personalized recommendations.<br>+ Worked on the front end to convert designs to useable interfaces, quickly picking up SwiftUI and app development.<br>+ Honed communication skills and time management, working on a team of 7 to deliver on a fast-paced software development cycle, earning top spots in various app design competitions.<br>+ Spearheaded a feature to track users’ mental health data to give users custom plans using machine learning to analyze the large data set and use various psychology sources to give accurate feedback.",
+        "tags": "app development | UI/UX | SwiftUI",
+        "type": "iOS App",
+        "role": "Fullstack Developer",
+        "github": "",
+        "url": "https://www.peaksmind.com/"
+    },
+    "project6": {
+        "title": "PageByPage",
+        "active": true,
+        "stack": [
+            "figma",
+            "swift",
+            "firebase",
+            "google-books"
+        ],
+        "stack-name": [
+            "Figma",
+            "Swift",
+            "Firebase",
+            "Google Books API"
+        ],
+        "desc": "Mobile app allowing users to log and find books.",
+        "longdesc": "+ Collaborated on a cross-functional team to develop an iOS app to find, log, and review books.<br>+ Utilized Google Cloud Platform for end-to-end development and Firebase Firestore databases to process user data, accessing book information from the Google Books API.<br>+ Developed app with Swift and SwiftUI, releasing the app for beta testing on the iPhone app store.+ Completed user research to ensure high customer value and user interface.",
+        "tags": "app development | frontend | Swift",
+        "type": "iOS App",
+        "role": "Fullstack Developer",
+        "github": "",
+        "url": ""
+    },
+    "class1": {
+        "title": "STAT 390: Statistical Methods in Engineering and Science",
+        "stack": [
+            "r"
+        ],
+        "stack-name": [
+            "R"
+        ],
+        "desc": "Exploratory data analysis and interactive computing using statistical methods in R."
+    },
+    "class2": {
+        "title": "CSE 123: Introduction to Computer Programming III",
+        "stack": [
+            "java-coffee-cup-logo--v1"
+        ],
+        "stack-name": [
+            "Java"
+        ],
+        "desc": "Recursion, inheritance, and reference semantics."
+    },
+    "class3": {
+        "title": "AMATH 352: Applied Linear Algebra",
+        "stack": [
+            "python"
+        ],
+        "stack-name": [
+            "Python"
+        ],
+        "desc": "LU factorization, QR factorization, eigenvalues and eigenvectors, and singular value decomposition, implemented with Python."
+    },
+    "class4": {
+        "title": "CSE 374: Intermediate Programming Concepts and Tools",
+        "stack": [
+            "c",
+            "c-plus-plus-logo",
+            "linux"
+        ],
+        "stack-name": [
+            "C",
+            "C++",
+            "Linux"
+        ],
+        "desc": "Lower-level programming and explicit memory management; use of Linux systems for compilation; software development techniques and tools including documentation and code review."
+    },
+    "class5": {
+        "title": "CSE 373: Data Structures and Algorithms",
+        "stack": [
+            "java-coffee-cup-logo--v1",
+            "git"
+        ],
+        "stack-name": [
+            "Java",
+            "Git"
+        ],
+        "desc": "Hash tables, priority queues, graphs, balanced trees, asymptotic analysis, and graph algorithms."
+    },
+    "class6": {
+        "title": "CSE 413: Programming Languages and Implementation",
+        "stack": [
+            "ruby"
+        ],
+        "stack-name": [
+            "Ruby"
+        ],
+        "desc": "Concepts/implementation strategies for programming languages; analysis of computer science and computer engineering performance."
+    },
+    "class7": {
+        "title": "CSE 414: Introduction to Database Systems",
+        "stack": [
+            "sql"
+        ],
+        "stack-name": [
+            "SQL"
+        ],
+        "desc": "Data models, query languages, transactions, database tuning, data warehousing, and parallelism."
+    },
+    "footer-desc": "always looking for opportunities :)"
+}

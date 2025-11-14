@@ -1,0 +1,304 @@
+{
+    "languageSwitcher": "Switch from <1>{{lng}}</1> to: ",
+    "home": "Start",
+    "about": "Über mich",
+    "projects": "projekte",
+    "academics": "kurse",
+    "resume": "lebenslauf ↗",
+    "start": "beginn",
+    "selftags": [
+        "Full-Stack-Entwicklung",
+        "App-Entwicklung",
+        "Front-End-Entwicklung",
+        "Webentwicklung",
+        "Datenbank Management"
+    ],
+    "name": "Katharina Reimer",
+    "hero": "Hallo! Ich bin",
+    "hero-2-1": "eine",
+    "hero-2-2": "Dateningineurin",
+    "hero-2-3": "und",
+    "hero-2-4": "Software-Entwicklerin",
+    "hero-2-5": "researching educational psychology.",
+    "current-school": "ACMS bei <a href='https://acms.washington.edu/' target='blank' rel='noopener noreferrer'>UW ↗</a>",
+    "current-job": "",
+    "featured-projects": "Gezeigte Projekte",
+    "featured-courses": "Gezeigte Kurse",
+    "school": "Universtät: ",
+    "curr-school": "University von Washington, WA, USA",
+    "grad-year": "Abschlussdatum: ",
+    "grad-date": "März 2026",
+    "loc": "Wohnort: ",
+    "curr-loc": "Seattle, WA, USA",
+    "major": "Hauptfach: ",
+    "curr-major": "Angewandte und rechentechnische Diplom Mathematikerin (Bachelor)",
+    "tech-stack": "Tech Stack",
+    "toolbox": "Toolbox",
+    "languages": "Programmiersprachen",
+    "langs": [
+        "java-coffee-cup-logo--v1",
+        "python",
+        "javascript--v1",
+        "swift",
+        "c-programming",
+        "c-plus-plus-logo",
+        "c-sharp-logo",
+        "go--v1",
+        "kotlin",
+        "ruby-programming-language",
+        "rust-programming-language",
+        "sql",
+        "typescript"
+    ],
+    "langs-name": [
+        "Java",
+        "Python",
+        "JavaScript",
+        "Swift",
+        "C",
+        "C++",
+        "C#",
+        "Go",
+        "Kotlin",
+        "Ruby",
+        "Rust",
+        "SQL",
+        "TypeScript"
+    ],
+    "frameworks": "Programmiergerüste",
+    "fmwks": [
+        "angularjs",
+        "bootstrap--v2",
+        "tailwind_css",
+        "react-native",
+        "kubernetes",
+        "vue-js"
+    ],
+    "fmwks-name": [
+        "AngularJS",
+        "Bootstrap",
+        "TailwindCSS",
+        "React",
+        "Kubernetes",
+        "VueJS"
+    ],
+    "other": "Sonstiges",
+    "etc": [
+        "figma--v1",
+        "git",
+        "intellij-idea",
+        "linux--v1",
+        "mysql-logo",
+        "postgreesql",
+        "pandas"
+    ],
+    "etc-name": [
+        "Figma",
+        "Git",
+        "IntelliJ IDEA",
+        "Linux",
+        "MySQL",
+        "PostGreeSQL",
+        "pandas"
+    ],
+    "greeting": "Hallo!",
+    "abt1": "Ich studiere Mathematik und deren Einfluss auf die Program-Effizienz. Ich bin im 3. Studienjahr und programmiere sehr gern.",
+    "abt2": "Ich bin eine Studentin an der Universität von Washington und  studiere angewandte und rechentechnische Mathematik - das ist eine Mischung von Mathematik und Informatik sowie deren wechselseitige Beziehung. Seit ich an der Universität von Washington eingeschrieben bin, habe ich gezielt besonders herausfordernde Kurse gewählt, um möglichst viel Wissen aufzubauen. Ich bin eine Software-Entwicklerin, die in ihren bisherigen Studienprojekten bereits umfassende Erfahrung in Full-Stack-Entwicklung gesammelt hat und suche Gelegenheiten, um in Teamarbeit meine Kenntnisse in der Softwareentwicklung weiter zu verbessern. Bereits vor meinem Studium habe ich viel Erfahrung mit Teamarbeit und Führung durch mein Engagement bei ehrenamtlichen Tätigkeiten gesammelt.",
+    "contact": "Interesse? Bitte kontaktiere mich gerne direkt!",
+    "con1": "Ich möchte meine praktische Berufserfahrung aufbauen und suche eine Gelegenheit meine Programmierkenntnisse in Deinem Unternehmen einzubringen. Meine bisherigen Projekte kannst Du <a href='https://github.com/rina-reimer' title='Rina-Reimer Github' target='_blank' rel='noopener noreferrer'>hier</a> einsehen. Alternativ kannst Du mir gerne eine E-Mail an <a href='mailto:rinareimer616@gmail.com' title='schick mir einen email' target='_blank' rel='noopener noreferrer'>rinareimer616@gmail.com</a> senden.",
+    "projects-title": "Meine Arbeitsproben:",
+    "documentation": "Dokumentation",
+    "project1": {
+        "title": "Inhaltsabhängige Bildverzerrung",
+        "active": false,
+        "stack": [
+            "java-coffee-cup-logo--v1"
+        ],
+        "stack-name": [
+            "Java"
+        ],
+        "desc": "Dieses Java-Programm benutzt den Dijkstra-Algorithmus, um innerhalb eines Fotos den Pfad von Pixeln zu finden, der am wenigsten Energie verbraucht.",
+        "longdesc": "+ Dieses Java-Programm benutzt den Dijkstra-Algorithmus, um innerhalb eines Fotos den Pfad von Pixeln zu finden, der am wenigsten Energie verbraucht.<br>+ Ich habe 3 Wochen im Team an diesem Studienprojekt im Rahmen meines Kurses Daten-Strukuren und Algorithmen gearbeitet.",
+        "type": "Teamarbeit",
+        "role": "Lead Developer",
+        "github": "",
+        "url": ""
+    },
+    "project2": {
+        "title": "Rechner für elektrische Schaltungen",
+        "active": false,
+        "stack": [
+            "python",
+            "google-colab"
+        ],
+        "stack-name": [
+            "Python",
+            "Google Colab"
+        ],
+        "desc": "Dieses Python-Programm berechnet die Spannungen auf allen Stromknoten und den jeweiligen Stromfluss zwischen den Knoten in einer vorgegebenen elektrischen Schaltung.",
+        "longdesc": "+ Dieses Python-Programm berechnet die Spannungen auf allen Stromknoten und den jeweiligen Stromfluss zwischen den Knoten in einer vorgegebenen elektrischen Schaltung.<br>+ Die Markdown-Erklärungen belegen meine Kompetenz in Linearer Algebra.<br>+ Ich habe den Professor unterstützt indem ich anderen Studierenden bei ihren Projekten geholfen und dazu beigetragen habe, dass alle Studierenden die Kursaufgabe verstehen.",
+        "type": "Kursprojekt",
+        "role": "Lead Developer",
+        "github": "https://github.com/rina-reimer/electrical-circuit-calculator",
+        "url": ""
+    },
+    "project3": {
+        "title": "BYJU's Fallstudien",
+        "active": false,
+        "stack": [
+            "python",
+            "google-colab"
+        ],
+        "stack-name": [
+            "Python",
+            "Google Colab"
+        ],
+        "tags": "machine learning | python",
+        "desc": "Sammlung meiner Python-Programme, die ich mit BYJU's FutureSchool erstellt habe.",
+        "longdesc": "+ Teilnahme an einem wöchentlichen <a href='https://byjus.com/' title='BYJU's FutureSchool' target='_blank' rel='noopener noreferrer'>Online-Python-Schulungsprogramm</a> zum Erlernen von Techniken des maschinellen Lernens und der Datenmodellierung <br>+ Erfolgreiche Durchführung von Datenbereinigung/-visualisierung und statistischen Darstellungen in über 100 praktischen Datenanalyse-Projekten auf Basis großer Datensätzen aus verschiedenen internationalen Quellen <br>+ Aufbau von Programmiererfahrung und vertieften Kenntnissen über maschinelle Lernmodelle wie lineare/logistische Regression, Random Forest Classifier und schnelle Fourier-Transformationen.",
+        "type": "Fallstudien",
+        "role": "Anwendungsentwicklerin",
+        "github": "https://github.com/rina-reimer/byjus-capstones",
+        "url": ""
+    },
+    "project4": {
+        "title": "Bit Connect",
+        "active": false,
+        "stack": [
+            "java-coffee-cup-logo--v1",
+            "figma"
+        ],
+        "stack-name": [
+            "Java",
+            "Figma"
+        ],
+        "desc": "Durchführung eines WINFO Hackathon Projekts. Es handelt sich dabei um eine Mobil-App, die Studenten mit ähnlichen Interessen und Studienfächern zusammenbringt.",
+        "longdesc": "+ Java-Anwendung, die darauf abzielt, Studenten persönlich miteinander zu verbinden, indem hypothetische Standortdaten und gefilterte Übereinstimmungen zwischen Benutzern basierend auf deren Studienrichtungen und Interessen verwendet werden. <br>+ Ich habe mit Kommilitonen zusammengearbeitet, die einen Figma Entwurf erstellt haben und auf deren Input das Projekt beim WINFO Hackathon 2024 gestartet.<br>+ Die Implementierung habe ich durch Selbststudium mit geringfügiger Untersetzung von Branchenexperten durchgeführt. <br>+ Die App war ein 9-stündiger initialer Build mit Architekturentwurf des Algorithmus und darauffolgender dreimonatiger Implementierung des Designs unter Verwendung von Gradle und der JVM zur Veröffentlichung der Dokumentation des funktionalen Prototypen.",
+        "tags": "hackathon | app development | algorithms | Java",
+        "type": "Hackathon Projekt",
+        "role": "Backend-Entwicklerin",
+        "github": "https://github.com/rina-reimer/bit-connect",
+        "url": ""
+    },
+    "project5": {
+        "title": "PeakMind",
+        "active": false,
+        "stack": [
+            "figma",
+            "swift",
+            "firebase"
+        ],
+        "stack-name": [
+            "Figma",
+            "Swift",
+            "Firebase"
+        ],
+        "desc": "Gamifizierte App für psychische Gesundheit, die darauf abzielt, Benutzern zugängliche und benutzerfreundliche Ressourcen bereitzustellen und mithilfe von KI personalisierte Empfehlungen anzubieten.",
+        "longdesc": "+ Ich habe in einem Team an der Entwicklung einer gamifizierten App für psychische Gesundheit gearbeitet, die darauf abzielt, Benutzern zugängliche und benutzerfreundliche Ressourcen zur Verfügung zu stellen und dabei künstliche Intelligenz zur Verarbeitung natürlicher Sprache nutzt, um personalisierte Empfehlungen abzugeben.<br>+ Ich habe am Frontend gearbeitet, um Designs in verwertbare Schnittstellen umzuwandeln. Dabei habe ich mich schnell in SwiftUI und die App-Entwicklung eingearbeitet.<br>+ Durch die Arbeit in einem 7-köpfigen Team habe ich meine Kommunikationsfähigkeiten und mein Zeitmanagement verbessert und dadurch einen schnellen Softwareentwicklungszyklus ermöglicht. Auf diese Weise konnte ich mir Spitzenplätze in verschiedenen App-Design-Wettbewerben erlangen.<br>+ Ich habe eine Funktion zur Verfolgung der Daten zur psychischen Gesundheit von Benutzern initiiert, um Benutzern mit Hilfe von maschinellem Lernen individuelle Pläne und Feedback auf Basis großer Datensätze sowie verschiedenen psychologischen Quellen anzubieten.",
+        "tags": "app development | UI/UX | SwiftUI",
+        "type": "iOS App",
+        "role": "Full-Stack-Entwicklerin",
+        "github": "",
+        "url": "https://www.peaksmind.com/"
+    },
+    "project6": {
+        "title": "PageByPage",
+        "active": true,
+        "stack": [
+            "figma",
+            "swift",
+            "firebase",
+            "google-books"
+        ],
+        "stack-name": [
+            "Figma",
+            "Swift",
+            "Firebase",
+            "Google Books API"
+        ],
+        "desc": "Native App zum Erfassen und Verwalten von Büchern.",
+        "longdesc": "+ Mitarbeit in einem funktionsübergreifenden Team, zur Entwicklung einer nativen iOS-App. Die App ermöglicht das Suchen, Protokollieren und Rezensieren von Büchern unter Verwendung der Google Books API.<br>+ Ich habe die App mit Swift und SwiftUI entwickelt und die App zum Betatest im iPhone App Store veröffentlicht.+ Durchführung von User Research, um einen hohen Kundennutzen und ein qualitativ hochwertiges User Interface sicherzustellen.",
+        "tags": "app development | frontend | Swift",
+        "type": "iOS App",
+        "role": "Full-Stack-Entwicklerin",
+        "github": "",
+        "url": ""
+    },
+    "class1": {
+        "title": "STAT 390: Statistische Methoden in Ingenieurwissenschaft und Science",
+        "stack": [
+            "r"
+        ],
+        "stack-name": [
+            "R"
+        ],
+        "desc": "Explorative Datenanalyse und interaktives Rechnen mit statistischen Methoden in R."
+    },
+    "class2": {
+        "title": "CSE 123: Einführung in Programmierung III",
+        "stack": [
+            "java-coffee-cup-logo--v1"
+        ],
+        "stack-name": [
+            "Java"
+        ],
+        "desc": "Rekursive Programmierung, Vererbung und Referenzsemantik."
+    },
+    "class3": {
+        "title": "AMATH 352: Angewandte Lineare Algebra",
+        "stack": [
+            "python"
+        ],
+        "stack-name": [
+            "Python"
+        ],
+        "desc": "Gaußsches Eliminationsverfahren, LR-Zerlegung, QR-Zerlegung und Singulärwertzerlegung mit Python."
+    },
+    "class4": {
+        "title": "CSE 374: Intermediäre Programmierkonzepten und -betriebsmittel",
+        "stack": [
+            "c",
+            "c-plus-plus-logo",
+            "linux"
+        ],
+        "stack-name": [
+            "C",
+            "C++",
+            "Linux"
+        ],
+        "desc": "Untergeordnete Programmierung (C/C++) und explizite Speicherverwaltung; Einsatz von Linux-Systemen zur Kompilierung; Softwareentwicklungstechniken und -tools; Entwurfs-, Implementierungs- und Teststrategien."
+    },
+    "class5": {
+        "title": "CSE 373: Zahlen-Strukturen und Algorithmen",
+        "stack": [
+            "java-coffee-cup-logo--v1",
+            "git"
+        ],
+        "stack-name": [
+            "Java",
+            "Git"
+        ],
+        "desc": "Hashtabellen, Warteschlangen, Graphen, balancierte Bäume, Heaps, asymptotische Laufzeit und Graphenalgorithmen."
+    },
+    "class6": {
+        "title": "CSE 413 Programmiersprachen und ihre Anwendung",
+        "stack": [
+            "ruby"
+        ],
+        "stack-name": [
+            "Ruby"
+        ],
+        "desc": "Grundkonzepte und Implementierungsstrategien für moderne objektorientierte Programmiersprachen, wie OCaml und Ruby; Analyse der Informatik und von Computer Engineering Performance."
+    },
+    "class7": {
+        "title": "CSE 414: Einführung in Datenbanksysteme",
+        "stack": [
+            "sql"
+        ],
+        "stack-name": [
+            "SQL"
+        ],
+        "desc": "Datenmodelle, Abfragesprachen, Transaktionen, Datenbankoptimierung, Data Warehousing und Parallelität."
+    },
+    "footer-desc": "Immer auf der Suche nach Möglichkeiten :)"
+}

@@ -1,10 +1,12 @@
-import { Animation } from "./Animation";
+import Link from "next/link.js";
+import { Animation } from "./Animation.jsx";
 
-export default function Navbar() {
-  return (<div>
-    {/* profile image or 3d model */}
-    <div className="relative w-1/12 aspect-square self-center justify-self-center px-8">
-      {/* <Animation /> */}
-    </div>
-  </div>);
+export default function Nav() {
+  return (
+    <Link href="/">
+      {/* profile image or 3d model */}
+      <div className="fixed w-1/6 aspect-square place-self-start left-8 top-8">
+        <Animation />
+      </div>
+    </Link>);
 }

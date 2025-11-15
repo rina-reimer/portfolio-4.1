@@ -39,10 +39,11 @@
     "src/app/[lng]/components/Navbar.jsx",
     "src/app/[lng]/components/Animation.jsx",
     "src/app/[lng]/components/Strawhat_duck.jsx",
-    "src/middleware.js",
+    "src/proxy.ts",
     "src/i18n/routing.js",
-    "src/i18n/request.js",
-    "src/app/[lng]/page.jsx"
+    "src/i18n/request.ts",
+    "src/app/[lng]/page.jsx",
+    "next.config.js"
   ],
   "exclude": [
     "node_modules"

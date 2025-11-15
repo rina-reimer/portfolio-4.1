@@ -2,9 +2,9 @@
 import React from "react";
 import { Canvas } from "@react-three/fiber";
 import { useGLTF, OrbitControls } from "@react-three/drei";
-import {Model} from "./Strawhat_duck";
+import { Model } from "./Strawhat_duck";
 
-export default function Animation() {
+export function Animation() {
 
   return (
     <Canvas>

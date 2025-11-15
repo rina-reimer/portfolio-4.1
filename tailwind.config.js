@@ -1,8 +1,8 @@
-import type { Config } from 'tailwindcss';
+import { Config } from 'tailwindcss';
 import defaultTheme from 'tailwindcss/defaultTheme';
 
 /** @type {import('tailwindcss').Config} */
-const config: Config = {
+const config = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -27,17 +27,9 @@ const config: Config = {
       fontFamily: {
         fraunces: ['Fraunces', "serif"],
         playfair: ['Radio_Canada', "sans-serif"]
-      }
+      },
     },
-    colors: {
-      light: '#FDF5E6',
-      dark: '#2A1A1F',
-      maroon: '#642F37',
-      red: '#C0350F',
-      orange: '#F3904B',
-      yellow: '#F7C767',
-      purple: '#B89DBB',
-    },
+
   },
 };
 

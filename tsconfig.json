@@ -26,7 +26,11 @@
       "@/*": [
         "./src/*"
       ]
-    }
+    },
+    "typeRoots": [
+      "./node_modules/@types",
+      "./types"
+    ]
   },
   "include": [
     "next-env.d.ts",
@@ -43,7 +47,8 @@
     "src/i18n/routing.js",
     "src/i18n/request.ts",
     "src/app/[lng]/page.jsx",
-    "next.config.js"
+    "next.config.js",
+    "types/**/*.d.ts"
   ],
   "exclude": [
     "node_modules"

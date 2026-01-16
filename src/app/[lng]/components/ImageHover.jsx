@@ -24,7 +24,7 @@ export function ImageHover({ show, img_link, alt_text }) {
         <Image
           src={img_link}
           alt={alt_text}
-          width={250}
+          width={300}
           height={250}
           className="relative"
         />

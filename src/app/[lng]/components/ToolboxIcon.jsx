@@ -1,15 +1,16 @@
 import { useState } from "react";
-import { Tooltip, Button } from "@nextui-org/react";
 import Image from "next/image";
+import { Tooltip, Button } from "@nextui-org/react";
 
-export default function ProjectCardIcon({ item, index, name }) {
+export default function ToolboxIcon({ item, index, name }) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <Tooltip key={index} className="bg-dark text-light p-2 rounded-full" isOpen={isOpen} content={name}>
-      <div key={index} className="flex relative h-full aspect-square bg-light border-2 border-dark z-10 hover:z-20 rounded-full">
+    <Tooltip key={index} className="bg-navy text-light p-2 rounded-full" isOpen={isOpen} content={name}>
+
+      <div className="flex relative h-16 aspect-square bg-light border-2 border-navy rounded-lg place-content-center">
         <Button
-          className="h-10 w-10 bg-transparent"
+          className="h-14 w-14 bg-transparent"
           onMouseEnter={() => setIsOpen(true)}
           onMouseLeave={() => setIsOpen(false)}
           onPress={() => setIsOpen(!isOpen)}

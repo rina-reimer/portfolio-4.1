@@ -14,6 +14,7 @@
   --color-orange: #F3904B;
   --color-yellow: #F7C767;
   --color-purple: #B89DBB;
+  --color-green: #6B8E6F;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -21,3 +22,88 @@
 }
 
 body {}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.ico-circle {
+  height: 40px;
+  width: 40px;
+  display: grid;
+  border-radius: 50%;
+  line-height: 1.6;
+  color: theme('colors.dark');
+  margin: 0 20px 0 0;
+  box-shadow: 0 0 0 3px theme('colors.dark');
+  transition: all 500ms ease;
+  place-content: center;
+}
+
+.ico-square {
+  height: 40px;
+  width: 40px;
+  display: grid;
+  border-radius: 0.2rem;
+  line-height: 1.6;
+  color: theme('colors.dark');
+  margin: 0 20px 0 0;
+  box-shadow: 0 0 0 3px theme('colors.dark');
+  transition: all 500ms ease;
+  place-content: center;
+}
+
+
+/* cards for project pages */
+.card {
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  transition: 600ms ease-in-out;
+  transform: perspective(1000px) rotateY(var(--rotate-y, 0)) translateY(var(--translate-y, 0));
+  box-shadow: 10px 10px 10px theme('colors.maroon');
+}
+
+.card:hover {
+  --translate-y: -10px;
+}
+
+.card.flip {
+  --rotate-y: 180deg;
+  --rotate-back-y: 0;
+}
+
+.card.flip>.front {
+  transition-delay: 300ms;
+  opacity: 0;
+}
+
+.card.flip>.back {
+  transition-delay: 300ms;
+  opacity: 1;
+}
+
+.card .front,
+.card .back {
+  position: absolute;
+}
+
+.card .front {
+  transition-delay: 300ms;
+  opacity: 1;
+}
+
+.card .back {
+  transition-delay: 300ms;
+  opacity: 0;
+  rotate: y 180deg;
+}
+
+.card.course-0 {
+  background-color: theme('colors.orange');
+}
+
+.card.course-1 {
+  background-color: theme('colors.purple');
+}

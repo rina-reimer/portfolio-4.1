@@ -19,15 +19,16 @@
     "hero-2-2": "data scientist",
     "hero-2-3": " and ",
     "hero-2-4": "developer",
-    "hero-2-5": "researching educational psychology.",
-    "current-school": "ACMS ",
-    "current-job": "",
+    "hero-2-5": "researching STEM education.",
+    "current-school": "ACMS graduate from the",
+    "current-work": "Course Assistant at the",
     "featured-projects": "Featured Projects",
     "featured-courses": "Featured Courses",
-    "school": "School: ",
+    "school": "Alma Mater: ",
     "curr-school": "University of Washington",
-    "grad-year": "Graduation Year: ",
-    "grad-date": "March 2026",
+    "curr-work": "University of Washington",
+    "gpa": "GPA: ",
+    "gpa-score": "3.54 / 4.0",
     "loc": "Location: ",
     "curr-loc": "Seattle, WA",
     "major": "Major: ",
@@ -235,16 +236,22 @@
         "desc": "Exploratory data analysis and interactive computing using statistical methods in R."
     },
     "class2": {
-        "title": "CSE 123: Introduction to Computer Programming III",
+        "title": "MATH 381: Discrete Mathematical Modeling",
         "stack": [
-            "java-coffee-cup-logo--v1"
+            "python"
         ],
         "stack-name": [
-            "Java"
+            "Python"
         ],
-        "desc": "Recursion, inheritance, and reference semantics."
+        "desc": "YYY."
     },
     "class3": {
+        "title": "MATH 407: Linear Optimization",
+        "stack": [],
+        "stack-name": [],
+        "desc": "YYY."
+    },
+    "class4": {
         "title": "AMATH 352: Applied Linear Algebra",
         "stack": [
             "python"
@@ -254,7 +261,59 @@
         ],
         "desc": "LU factorization, QR factorization, eigenvalues and eigenvectors, and singular value decomposition, implemented with Python."
     },
-    "class4": {
+    "class5": {
+        "title": "AMATH 383: XXX",
+        "stack": [
+            "python"
+        ],
+        "stack-name": [
+            "Python"
+        ],
+        "desc": "YYY."
+    },
+    "class6": {
+        "title": "AMATH 481: Scientific Computing",
+        "stack": [
+            "python"
+        ],
+        "stack-name": [
+            "Python"
+        ],
+        "desc": "YYY."
+    },
+    "class7": {
+        "title": "CSE 123: Introduction to Computer Programming III",
+        "stack": [
+            "java-coffee-cup-logo--v1"
+        ],
+        "stack-name": [
+            "Java"
+        ],
+        "desc": "Recursion, inheritance, and reference semantics."
+    },
+    "class8": {
+        "title": "CSE 340: Interaction Programming",
+        "stack": [
+            "flutter"
+        ],
+        "stack-name": [
+            "Flutter"
+        ],
+        "desc": "YYY."
+    },
+    "class9": {
+        "title": "CSE 373: Data Structures and Algorithms",
+        "stack": [
+            "java-coffee-cup-logo--v1",
+            "git"
+        ],
+        "stack-name": [
+            "Java",
+            "Git"
+        ],
+        "desc": "Hash tables, priority queues, graphs, balanced trees, asymptotic analysis, and graph algorithms."
+    },
+    "class10": {
         "title": "CSE 374: Intermediate Programming Concepts and Tools",
         "stack": [
             "c",
@@ -268,19 +327,7 @@
         ],
         "desc": "Lower-level programming and explicit memory management; use of Linux systems for compilation; software development techniques and tools including documentation and code review."
     },
-    "class5": {
-        "title": "CSE 373: Data Structures and Algorithms",
-        "stack": [
-            "java-coffee-cup-logo--v1",
-            "git"
-        ],
-        "stack-name": [
-            "Java",
-            "Git"
-        ],
-        "desc": "Hash tables, priority queues, graphs, balanced trees, asymptotic analysis, and graph algorithms."
-    },
-    "class6": {
+    "class11": {
         "title": "CSE 413: Programming Languages and Implementation",
         "stack": [
             "ruby"
@@ -290,7 +337,7 @@
         ],
         "desc": "Concepts/implementation strategies for programming languages; analysis of computer science and computer engineering performance."
     },
-    "class7": {
+    "class12": {
         "title": "CSE 414: Introduction to Database Systems",
         "stack": [
             "sql"
@@ -299,6 +346,16 @@
             "SQL"
         ],
         "desc": "Data models, query languages, transactions, database tuning, data warehousing, and parallelism."
+    },
+    "class13": {
+        "title": "CSE 417: XXX",
+        "stack": [
+            "java-coffee-cup-logo--v1"
+        ],
+        "stack-name": [
+            "java"
+        ],
+        "desc": "YYY."
     },
     "footer-desc": "always looking for opportunities :)"
 }

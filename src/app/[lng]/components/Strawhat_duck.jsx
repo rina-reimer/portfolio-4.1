@@ -22,7 +22,7 @@ export function Model(props) {
   const duck = useRef();
   // Subscribe this component to the render-loop, rotate the mesh every frame
   useFrame((state, delta) => {
-    const rotationY = -(mousePosition.x / window.innerWidth - 0.3) * Math.PI / 2;
+    const rotationY = -(mousePosition.x / window.innerWidth - 0.1) * Math.PI / 2;
     const rotationX = (mousePosition.y / window.innerHeight + 0.5) * Math.PI / 2;
 
     easing.dampE(

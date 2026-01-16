@@ -10,6 +10,10 @@ import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import "../globals.css";
 
+interface Lang {
+  lng: "en" | "de";
+}
+
 const radio = Radio_Canada({
   variable: "--font-radio-canada",
   subsets: ["latin"],
@@ -22,7 +26,7 @@ export const metadata = {
 
 export default async function RootLayout({
   children, params
-}) {
+}: { children: React.ReactNode, params: Lang }) {
   const { lng } = await params;
 
   if (!routing.locales.includes(lng)) {
@@ -32,12 +36,18 @@ export default async function RootLayout({
 
   return (
     <html lang={lng} dir='ltr'>
-      <body className={`${radio.className}`}>
+      <head>
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+        />
+      </head>
+      <body className={`${radio.className} bg-light dark:bg-dark`}>
         <NextIntlClientProvider>
-          <Nav lng={lng} />
+          <Nav />
           <LanguageSwitcher lng={lng} />
           {children}
-          <Footer lng={lng} />
+          <Footer />
         </NextIntlClientProvider>
       </body>
     </html>

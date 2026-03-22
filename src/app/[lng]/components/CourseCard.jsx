@@ -9,7 +9,7 @@ const CourseCard = ({ classNum, lng }) => {
   const [flip, setFlip] = useState(false);
 
   return (
-    <div className={`card course-${classNum % 2} ${flip ? "flip" : ""} relative flex flex-col bg-gray h-48 w-full border-2 border-navy rounded-[32px] overflow-clip shadow-xl place-content-center`}>
+    <div className={`card course-${classNum % 2} ${flip ? "flip" : ""} relative flex flex-col h-48 w-full border-2 border-navy rounded-4xl overflow-clip shadow-xl justify-center items-end p-4`}>
       {/* ------------------------- FRONTSIDE ------------------------- */}
       <div className="front grid bg-gray space-y-3 place-content-center overscroll-contain" onClick={() => setFlip(!flip)}>
         {/* title */}
@@ -20,12 +20,12 @@ const CourseCard = ({ classNum, lng }) => {
       {/* ------------------------- BACKSIDE ------------------------- */}
       <div className="back flex flex-col bg-gray max-h-48" onClick={() => setFlip(!flip)}>
         {/* dev stack */}
-        <div className="flex flex-row p-2">
+        <div className="flex flex-row pt-6">
           {t.raw(`stack`).map((item, index) => {
             if (flip) {
               return (
-                <Tooltip key={item} className="bg-navy text-gray p-2 rounded-full" content={t.raw(`stack-name`)[index]}>
-                  <div className={`flex relative h-8 aspect-square bg-gray border-2 border-navy z-10 hover:z-20 rounded-full`}>
+                <Tooltip key={item} className="bg-dark text-light p-2 rounded-full" content={t.raw(`stack-name`)[index]}>
+                  <div className={`flex relative h-8 aspect-square bg-light border-2 border-navy z-10 hover:z-20 rounded-full`}>
                     <Image src={`https://img.icons8.com/color/50/${item}.png`} fill={true} alt={`${item} icon`}></Image>
                   </div>
                 </Tooltip>

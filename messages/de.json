@@ -21,12 +21,12 @@
     "hero-2-4": "Software-Entwicklerin,",
     "hero-2-5": "die MINT Ausbildung entforscht.",
     "current-school": "ACMS Hochschulabsolventin von die ",
-    "current-work": "Lehrassistentin bei die ",
+    "current-work": "Ich suche Arbeit",
     "featured-projects": "Gezeigte Projekte",
     "featured-courses": "Gezeigte Kurse",
     "school": "Alma Mater: ",
     "curr-school": "University von Washington, WA, USA",
-    "curr-work": "University von Washington, WA, USA",
+    "curr-work": "",
     "gpa": "Note: ",
     "gpa-score": "3.54 / 4.0",
     "loc": "Wohnort: ",
@@ -41,13 +41,7 @@
         "python",
         "javascript--v1",
         "swift",
-        "c-programming",
-        "c-plus-plus-logo",
-        "c-sharp-logo",
-        "go--v1",
         "kotlin",
-        "ruby-programming-language",
-        "rust-programming-language",
         "sql",
         "typescript"
     ],
@@ -56,32 +50,20 @@
         "Python",
         "JavaScript",
         "Swift",
-        "C",
-        "C++",
-        "C#",
-        "Go",
         "Kotlin",
-        "Ruby",
-        "Rust",
         "SQL",
         "TypeScript"
     ],
     "frameworks": "Programmiergerüste",
     "fmwks": [
-        "angularjs",
         "bootstrap--v2",
         "tailwind_css",
-        "react-native",
-        "kubernetes",
-        "vue-js"
+        "react-native"
     ],
     "fmwks-name": [
-        "AngularJS",
         "Bootstrap",
         "TailwindCSS",
-        "React",
-        "Kubernetes",
-        "VueJS"
+        "React"
     ],
     "other": "Sonstiges",
     "etc": [
@@ -107,8 +89,21 @@
     "abt2": "Ich bin eine Studentin an der Universität von Washington und  studiere angewandte und rechentechnische Mathematik - das ist eine Mischung von Mathematik und Informatik sowie deren wechselseitige Beziehung. Seit ich an der Universität von Washington eingeschrieben bin, habe ich gezielt besonders herausfordernde Kurse gewählt, um möglichst viel Wissen aufzubauen. Ich bin eine Software-Entwicklerin, die in ihren bisherigen Studienprojekten bereits umfassende Erfahrung in Full-Stack-Entwicklung gesammelt hat und suche Gelegenheiten, um in Teamarbeit meine Kenntnisse in der Softwareentwicklung weiter zu verbessern. Bereits vor meinem Studium habe ich viel Erfahrung mit Teamarbeit und Führung durch mein Engagement bei ehrenamtlichen Tätigkeiten gesammelt.",
     "contact": "Interesse? Bitte kontaktiere mich gerne direkt!",
     "con1": "Ich möchte meine praktische Berufserfahrung aufbauen und suche eine Gelegenheit meine Programmierkenntnisse in Deinem Unternehmen einzubringen. Meine bisherigen Projekte kannst Du <a href='https://github.com/rina-reimer' title='Rina-Reimer Github' target='_blank' rel='noopener noreferrer'>hier</a> einsehen. Alternativ kannst Du mir gerne eine E-Mail an <a href='mailto:rinareimer616@gmail.com' title='schick mir einen email' target='_blank' rel='noopener noreferrer'>rinareimer616@gmail.com</a> senden.",
-    "projects-title": "Meine Arbeitsproben:",
-    "documentation": "Dokumentation",
+    "data-title": "Data science education:",
+    "data1": {
+        "title": "BYJU's FutureSchool",
+        "date": "November 2022",
+        "link": "https://github.com/rina-reimer/byjus-capstones",
+        "desc": "+ Successfully completed a comprehensive weekly online Python training program comprising 200+ sessions and hands-on projects, with a strong focus on machine learning and data science.<br>+ Developed expertise in data cleaning, data visualization, and statistical analysis through 100+ practical data science projects using large, real-world datasets.<br>+ Acquired practical coding experience and in-depth understanding of 10+ machine learning algorithms, including Linear/Logistic Regression, Random Forest, and Fast Fourier Transform (FFT)."
+    },
+    "data2": {
+        "title": "Google Data Analytics Certificate",
+        "date": "August 2025",
+        "link": "https://www.coursera.org/google-certificates/google-data-analytics?utm_source=google&utm_medium=institutions&utm_campaign=sou--google__med--paidsearch__cam--ha-sem-bk-exa-data__geo%E2%80%94US__con--RSA-2__ter--google%20data%20analytics%20professional%20certificate&gwg_campaign_id=22602735740&gwg_exp=null&gwg_ad_id=GCLID--Cj0KCQjwpv7NBhCzARIsADkIfWx45GB-qgqvmPfcAsZ0b2BrP5s5eKZfgxLk7aUro8RGmEng_-w7ikoaAhh_EALw_wcB__GBRAID--0AAAAADEWTLUNTpWckYTZLPfTOm9rxykh8&_gl=1*lgbehp*_gcl_aw*R0NMLjE3NzQyMTc5MzIuQ2owS0NRandwdjdOQmhDekFSSXNBRGtJZld4NDVHQi1xZ3F2bVBmY0FzWjBiMkJyUDVzNWVLWmZneExrN2FVcm84UkdtRW5nXy13N2lrb2FBaGhfRUFMd193Y0I.*_gcl_au*ODMxMDgzMzg4LjE3NzQyMTc5MzI.",
+        "desc": "+ Learned Business Intelligence concepts and technical skills, such as finding data solutions, data preparation/processing, data visualization, and how to share findings with stakeholders. <br>+ Harnessed learned skills through case studies and work problems, excelling in assessments throughout the program."
+    },
+    "projects-title": "What I have worked on:",
+    "documentation": "Documentation",
     "project1": {
         "title": "Inhaltsabhängige Bildverzerrung",
         "active": false,
@@ -236,16 +231,22 @@
         "desc": "Explorative Datenanalyse und interaktives Rechnen mit statistischen Methoden in R."
     },
     "class2": {
-        "title": "CSE 123: Einführung in Programmierung III",
+        "title": "MATH 381: Discrete Mathematical Modeling",
         "stack": [
-            "java-coffee-cup-logo--v1"
+            "python"
         ],
         "stack-name": [
-            "Java"
+            "Python"
         ],
-        "desc": "Rekursive Programmierung, Vererbung und Referenzsemantik."
+        "desc": "Introduction to methods of discrete mathematics, including topics from graph theory, network flows, and combinatorics. Emphasis on these tools to formulate models and solve problems arising in variety of applications, such as computer science, biology, and management science. "
     },
     "class3": {
+        "title": "MATH 407: Linear Optimization",
+        "stack": [],
+        "stack-name": [],
+        "desc": "Maximization and minimization of linear functions subject to constraints consisting of linear equations and inequalities; linear programming and mathematical modeling. Simplex method, elementary games and duality."
+    },
+    "class4": {
         "title": "AMATH 352: Angewandte Lineare Algebra",
         "stack": [
             "python"
@@ -255,7 +256,59 @@
         ],
         "desc": "Gaußsches Eliminationsverfahren, LR-Zerlegung, QR-Zerlegung und Singulärwertzerlegung mit Python."
     },
-    "class4": {
+    "class5": {
+        "title": "AMATH 383: Introduction to Continuous Mathematical Modeling",
+        "stack": [
+            "python"
+        ],
+        "stack-name": [
+            "Python"
+        ],
+        "desc": "Introductory survey of applied mathematics with emphasis on modeling of physical and biological problems in terms of differential equations. Formulation, solution, and interpretation of the results."
+    },
+    "class6": {
+        "title": "AMATH 481: Scientific Computing",
+        "stack": [
+            "python"
+        ],
+        "stack-name": [
+            "Python"
+        ],
+        "desc": "Survey of numerical techniques for differential equations. Emphasis is on implementation of numerical schemes for application problems. "
+    },
+    "class7": {
+        "title": "CSE 123: Einführung in Programmierung III",
+        "stack": [
+            "java-coffee-cup-logo--v1"
+        ],
+        "stack-name": [
+            "Java"
+        ],
+        "desc": "Rekursive Programmierung, Vererbung und Referenzsemantik."
+    },
+    "class8": {
+        "title": "CSE 340: Interaction Programming",
+        "stack": [
+            "flutter"
+        ],
+        "stack-name": [
+            "Flutter"
+        ],
+        "desc": "YYY."
+    },
+    "class9": {
+        "title": "CSE 373: Zahlen-Strukturen und Algorithmen",
+        "stack": [
+            "java-coffee-cup-logo--v1",
+            "git"
+        ],
+        "stack-name": [
+            "Java",
+            "Git"
+        ],
+        "desc": "Hashtabellen, Warteschlangen, Graphen, balancierte Bäume, Heaps, asymptotische Laufzeit und Graphenalgorithmen."
+    },
+    "class10": {
         "title": "CSE 374: Intermediäre Programmierkonzepten und -betriebsmittel",
         "stack": [
             "c",
@@ -269,19 +322,7 @@
         ],
         "desc": "Untergeordnete Programmierung (C/C++) und explizite Speicherverwaltung; Einsatz von Linux-Systemen zur Kompilierung; Softwareentwicklungstechniken und -tools; Entwurfs-, Implementierungs- und Teststrategien."
     },
-    "class5": {
-        "title": "CSE 373: Zahlen-Strukturen und Algorithmen",
-        "stack": [
-            "java-coffee-cup-logo--v1",
-            "git"
-        ],
-        "stack-name": [
-            "Java",
-            "Git"
-        ],
-        "desc": "Hashtabellen, Warteschlangen, Graphen, balancierte Bäume, Heaps, asymptotische Laufzeit und Graphenalgorithmen."
-    },
-    "class6": {
+    "class11": {
         "title": "CSE 413 Programmiersprachen und ihre Anwendung",
         "stack": [
             "ruby"
@@ -291,7 +332,7 @@
         ],
         "desc": "Grundkonzepte und Implementierungsstrategien für moderne objektorientierte Programmiersprachen, wie OCaml und Ruby; Analyse der Informatik und von Computer Engineering Performance."
     },
-    "class7": {
+    "class12": {
         "title": "CSE 414: Einführung in Datenbanksysteme",
         "stack": [
             "sql"
@@ -300,6 +341,16 @@
             "SQL"
         ],
         "desc": "Datenmodelle, Abfragesprachen, Transaktionen, Datenbankoptimierung, Data Warehousing und Parallelität."
+    },
+    "class13": {
+        "title": "CSE 417: Algorithms and Computational Complexity",
+        "stack": [
+            "java-coffee-cup-logo--v1"
+        ],
+        "stack-name": [
+            "java"
+        ],
+        "desc": "Design and analysis of algorithms and data structures. Efficient algorithms for manipulating graphs and strings. Fast Fourier Transform. Time and space complexity. NP-complete problems and undecidable problems."
     },
     "footer-desc": "Immer auf der Suche nach Möglichkeiten :)"
 }

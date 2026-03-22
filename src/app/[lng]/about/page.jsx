@@ -12,7 +12,7 @@ export default function Dev({ lng }) {
       <div className="flex flex-col px-[10dvw] mt-36 w-full space-y-10">
 
         <div className="grid grid-row pl-[5dvw] h-52 px-8">
-          <div className="w-9/10 h-9/10 place-self-center border-2 border-dark ">
+          <div className="w-9/10 md:h-9/10 h-100% place-self-center border-2 border-dark ">
             <div className="bg-light p-4 mx-2 my-[-32] md:text-3xl text-xl absolute ">
               <h1>A Quick Look</h1>
             </div>
@@ -53,6 +53,9 @@ export default function Dev({ lng }) {
           </div>
         </div>
 
+        <div className="mx-2 -mb-0.5 md:text-3xl text-xl">
+          <h1>My Skills</h1>
+        </div>
         <div className="flex justify-content-center p-4 border-2 border-dark bg-yellow">
           <Toolbox />
         </div>

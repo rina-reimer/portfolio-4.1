@@ -18,9 +18,9 @@ export default function DataScience({ lng }) {
         {/* Projects */}
         <div className="grid grid-col gap-12 p-6 justify-items-center">
           <Divider />
-          {[6, 5, 4, 3, 2, 1].map((item) => {
+          {[2, 1].map((item) => {
             return (
-              <CaseCard key={item} />
+              <CaseCard key={item} index={item} />
             );
           })}
         </div>

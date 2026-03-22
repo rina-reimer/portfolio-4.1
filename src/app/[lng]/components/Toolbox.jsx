@@ -34,7 +34,7 @@ const Toolbox = ({ lng }) => {
     <div className='w-full justify-center flex flex-col space-y-4'>
       {/* languages */}
       <div>
-        <h1 className='text-xl'>{t('languages')}</h1>
+        <h1 className='text-xl text-fraunces'>{t('languages')}</h1>
         <Carousel ssr itemClass="image-item"
           swipeable={true}
           draggable={true}

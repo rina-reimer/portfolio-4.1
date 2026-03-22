@@ -22,16 +22,16 @@ export default function Home() {
 
   return (
     <div className="flex min-h-screen items-center justify-center">
-      <main className="flex flex-col w-full items-center">
+      <main className="flex flex-col lg:pl-64 md:pl-32 pl-18 w-full items-baseline">
         {/* Hero Section */}
-        <div className="flex flex-col w-4/5">
-          <div className="flex flex-row w-full pt-[-40lvh] place-items-center">
+        <div className="flex flex-col">
+          <div className="flex flex-row w-full pt-[-50lvh] place-items-center">
             {/* hero text */}
-            <div className="flex flex-col leading-[5dvw] px-2 w-full place-content-center xl:text-5xl md:text-3xl text-lg">
+            <div className="flex flex-col space-y-6 leading-[5dvw] px-2 w-full place-content-center xl:text-5xl lg:text-4xl md:text-3xl text-2xl">
               <div className='flex flex-row space-x-[0.5dvw]'>
                 <div className="text-dark">{t('hero')}</div>
                 <div className="text-maroon hover:text-red hover:cursor-crosshair font-extrabold" onMouseEnter={() => setShowProfile(true)} onMouseLeave={() => setShowProfile(false)}>
-                  <Link href={`${lng}/self`}>{t('name')}</Link>
+                  <Link href={`${lng}/about`}>{t('name')}</Link>
                   <ImageHover show={showProfile} img_link={'/profile.jpeg'} alt_text={t('name')}></ImageHover>
                 </div>
               </div>
@@ -51,7 +51,7 @@ export default function Home() {
                 <div className="text-dark">{t('hero-2-5')}</div>
               </div>
               {/* grad and work info */}
-              <div className="grid grid-rows-2 justify-between leading-10 w-full xl:text-xl md:text-lg text-sm">
+              <div className="grid grid-rows-2 justify-between space-y-3 w-full xl:text-xl md:text-lg text-sm pt-8">
                 <div className='flex md:flex-row flex-col space-x-2'>
                   <div className="text-dark">{t('current-school')}</div>
                   <div className="text-maroon hover:text-red hover:cursor-crosshair font-extrabold" onMouseEnter={() => setShowSchool(true)} onMouseLeave={() => setShowSchool(false)}>

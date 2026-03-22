@@ -21,12 +21,12 @@
     "hero-2-4": "developer",
     "hero-2-5": "researching STEM education.",
     "current-school": "ACMS graduate from the",
-    "current-work": "Course Assistant at the",
+    "current-work": "Looking for work",
     "featured-projects": "Featured Projects",
     "featured-courses": "Featured Courses",
     "school": "Alma Mater: ",
     "curr-school": "University of Washington",
-    "curr-work": "University of Washington",
+    "curr-work": "",
     "gpa": "GPA: ",
     "gpa-score": "3.54 / 4.0",
     "loc": "Location: ",
@@ -41,13 +41,7 @@
         "python",
         "javascript--v1",
         "swift",
-        "c-programming",
-        "c-plus-plus-logo",
-        "c-sharp-logo",
-        "go--v1",
         "kotlin",
-        "ruby-programming-language",
-        "rust-programming-language",
         "sql",
         "typescript"
     ],
@@ -56,32 +50,20 @@
         "Python",
         "JavaScript",
         "Swift",
-        "C",
-        "C++",
-        "C#",
-        "Go",
         "Kotlin",
-        "Ruby",
-        "Rust",
         "SQL",
         "TypeScript"
     ],
     "frameworks": "Frameworks",
     "fmwks": [
-        "angularjs",
         "bootstrap--v2",
         "tailwind_css",
-        "react-native",
-        "kubernetes",
-        "vue-js"
+        "react-native"
     ],
     "fmwks-name": [
-        "AngularJS",
         "Bootstrap",
         "TailwindCSS",
-        "React",
-        "Kubernetes",
-        "VueJS"
+        "React"
     ],
     "other": "Other",
     "etc": [
@@ -107,6 +89,19 @@
     "abt2": "I am currently a student at the University of Washington, studying Applied and Computational Mathematical Sciences, which is a mixture of mathematics and computer science and how they relate to each other. I have challenged myself by taking difficult classes since being enrolled at UW. I have years of experience collaborating and explaining my ideas from tutoring and volunteering. I am a software developer expanding my expertise in full-stack development  through numerous personal projects. I'm always looking for opportunities to collaborate and expand my knowledge of software development.",
     "contact": "Get in Touch!",
     "con1": "I'm looking for industry experience and other opportunities to implement programs. You can check out my <a href='https://github.com/rina-reimer' title='Rina-Reimer Github' target='_blank' rel='noopener noreferrer'>personal projects</a> or reach me by email at <a href='mailto:rinareimer616@gmail.com' title='send me an email' target='_blank' rel='noopener noreferrer'>rinareimer616@gmail.com</a>.",
+    "data-title": "Data science education:",
+    "data1": {
+        "title": "BYJU's FutureSchool",
+        "date": "November 2022",
+        "link": "https://github.com/rina-reimer/byjus-capstones",
+        "desc": "+ Successfully completed a comprehensive weekly online Python training program comprising 200+ sessions and hands-on projects, with a strong focus on machine learning and data science.<br>+ Developed expertise in data cleaning, data visualization, and statistical analysis through 100+ practical data science projects using large, real-world datasets.<br>+ Acquired practical coding experience and in-depth understanding of 10+ machine learning algorithms, including Linear/Logistic Regression, Random Forest, and Fast Fourier Transform (FFT)."
+    },
+    "data2": {
+        "title": "Google Data Analytics Certificate",
+        "date": "August 2025",
+        "link": "https://www.coursera.org/google-certificates/google-data-analytics?utm_source=google&utm_medium=institutions&utm_campaign=sou--google__med--paidsearch__cam--ha-sem-bk-exa-data__geo%E2%80%94US__con--RSA-2__ter--google%20data%20analytics%20professional%20certificate&gwg_campaign_id=22602735740&gwg_exp=null&gwg_ad_id=GCLID--Cj0KCQjwpv7NBhCzARIsADkIfWx45GB-qgqvmPfcAsZ0b2BrP5s5eKZfgxLk7aUro8RGmEng_-w7ikoaAhh_EALw_wcB__GBRAID--0AAAAADEWTLUNTpWckYTZLPfTOm9rxykh8&_gl=1*lgbehp*_gcl_aw*R0NMLjE3NzQyMTc5MzIuQ2owS0NRandwdjdOQmhDekFSSXNBRGtJZld4NDVHQi1xZ3F2bVBmY0FzWjBiMkJyUDVzNWVLWmZneExrN2FVcm84UkdtRW5nXy13N2lrb2FBaGhfRUFMd193Y0I.*_gcl_au*ODMxMDgzMzg4LjE3NzQyMTc5MzI.",
+        "desc": "+ Learned Business Intelligence concepts and technical skills, such as finding data solutions, data preparation/processing, data visualization, and how to share findings with stakeholders. <br>+ Harnessed learned skills through case studies and work problems, excelling in assessments throughout the program."
+    },
     "projects-title": "What I have worked on:",
     "documentation": "Documentation",
     "project1": {
@@ -218,7 +213,7 @@
             "Google Books API"
         ],
         "desc": "Mobile app allowing users to log and find books.",
-        "longdesc": "+ Collaborated on a cross-functional team to develop an iOS app to find, log, and review books.<br>+ Utilized Google Cloud Platform for end-to-end development and Firebase Firestore databases to process user data, accessing book information from the Google Books API.<br>+ Developed app with Swift and SwiftUI, releasing the app for beta testing on the iPhone app store.+ Completed user research to ensure high customer value and user interface.",
+        "longdesc": "+ Collaborated on a cross-functional team to develop an iOS app to find, log, and review books.<br>+ Utilized Google Cloud Platform for end-to-end development and Firebase Firestore databases to process user data, accessing book information from the Google Books API.<br>+ Developed app with Swift and SwiftUI, releasing the app for beta testing on the iPhone app store.<br>+ Completed user research to ensure high customer value and user interface.",
         "tags": "app development | frontend | Swift",
         "type": "iOS App",
         "role": "Fullstack Developer",
@@ -243,13 +238,13 @@
         "stack-name": [
             "Python"
         ],
-        "desc": "YYY."
+        "desc": "Introduction to methods of discrete mathematics, including topics from graph theory, network flows, and combinatorics. Emphasis on these tools to formulate models and solve problems arising in variety of applications, such as computer science, biology, and management science. "
     },
     "class3": {
         "title": "MATH 407: Linear Optimization",
         "stack": [],
         "stack-name": [],
-        "desc": "YYY."
+        "desc": "Maximization and minimization of linear functions subject to constraints consisting of linear equations and inequalities; linear programming and mathematical modeling. Simplex method, elementary games and duality."
     },
     "class4": {
         "title": "AMATH 352: Applied Linear Algebra",
@@ -262,14 +257,14 @@
         "desc": "LU factorization, QR factorization, eigenvalues and eigenvectors, and singular value decomposition, implemented with Python."
     },
     "class5": {
-        "title": "AMATH 383: XXX",
+        "title": "AMATH 383: Introduction to Continuous Mathematical Modeling",
         "stack": [
             "python"
         ],
         "stack-name": [
             "Python"
         ],
-        "desc": "YYY."
+        "desc": "Introductory survey of applied mathematics with emphasis on modeling of physical and biological problems in terms of differential equations. Formulation, solution, and interpretation of the results."
     },
     "class6": {
         "title": "AMATH 481: Scientific Computing",
@@ -279,7 +274,7 @@
         "stack-name": [
             "Python"
         ],
-        "desc": "YYY."
+        "desc": "Survey of numerical techniques for differential equations. Emphasis is on implementation of numerical schemes for application problems. "
     },
     "class7": {
         "title": "CSE 123: Introduction to Computer Programming III",
@@ -348,14 +343,14 @@
         "desc": "Data models, query languages, transactions, database tuning, data warehousing, and parallelism."
     },
     "class13": {
-        "title": "CSE 417: XXX",
+        "title": "CSE 417: Algorithms and Computational Complexity",
         "stack": [
             "java-coffee-cup-logo--v1"
         ],
         "stack-name": [
             "java"
         ],
-        "desc": "YYY."
+        "desc": "Design and analysis of algorithms and data structures. Efficient algorithms for manipulating graphs and strings. Fast Fourier Transform. Time and space complexity. NP-complete problems and undecidable problems."
     },
     "footer-desc": "always looking for opportunities :)"
 }

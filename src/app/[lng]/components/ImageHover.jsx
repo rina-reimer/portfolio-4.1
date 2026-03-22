@@ -11,7 +11,7 @@ export function ImageHover({ show, img_link, alt_text }) {
       className="absolute border-4 border-dark pointer-events-none z-50"
       style={{
         top: `${mousePosition.y}px`,
-        left: `${mousePosition.x + 150}px`,
+        left: `${(mousePosition.x < window.innerWidth - 400) ? (mousePosition.x + 150) : (mousePosition.x)}px`,
         transform: 'translate(-50%, -50%)' // Centers the image on cursor
       }}
     >

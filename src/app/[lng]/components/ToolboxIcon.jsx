@@ -6,9 +6,9 @@ export default function ToolboxIcon({ item, index, name }) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <Tooltip key={index} className="bg-navy text-light p-2 rounded-full" isOpen={isOpen} content={name}>
+    <Tooltip key={index} className="bg-dark text-light p-2 rounded-full" isOpen={isOpen} content={name}>
 
-      <div className="flex relative h-16 aspect-square bg-light border-2 border-navy rounded-lg place-content-center">
+      <div className="flex relative h-16 aspect-square bg-light border-2 border-dark rounded-lg place-content-center">
         <Button
           className="h-14 w-14 bg-transparent"
           onMouseEnter={() => setIsOpen(true)}

@@ -11,7 +11,7 @@ export default function DataScience({ lng }) {
       <div className="flex flex-col mx-[10dvw] mt-36 w-full space-y-10">
 
         <div className="grid grid-row ml-[5dvw] h-52 px-8">
-          <h1 className="text-navy font-extrabold text-4xl font-fraunces self-center overflow-auto">{t('projects-title')}</h1>
+          <h1 className="text-navy font-extrabold text-4xl font-fraunces self-center overflow-auto">{t('data-title')}</h1>
           <Divider />
         </div>
 

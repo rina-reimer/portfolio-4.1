@@ -8,7 +8,7 @@ export default function Dev({ lng }) {
 
   return (
     <main className="flex flex-row min-h-screen">
-      <div className="flex flex-col mx-[10dvw] mt-36 w-full space-y-10">
+      <div className="flex flex-col mx-[10dvw] my-36 w-full space-y-10">
 
         <div className="grid grid-row ml-[5dvw] h-52 px-8">
           <h1 className="text-navy font-extrabold text-4xl font-fraunces self-center overflow-auto">{t('projects-title')}</h1>

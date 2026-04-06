@@ -16,25 +16,25 @@
     "name": "Katharina Reimer",
     "hero": "Hallo! Ich bin",
     "hero-2-1": "eine",
-    "hero-2-2": "Dateningineurin",
+    "hero-2-2": "Dateningenieurin",
     "hero-2-3": "und",
     "hero-2-4": "Software-Entwicklerin,",
-    "hero-2-5": "die MINT Ausbildung entforscht.",
-    "current-school": "ACMS Hochschulabsolventin von die ",
-    "current-work": "Ich suche Arbeit",
+    "hero-2-5": "die sich mit MINT-Ausbildung beschäftigt.",
+    "current-school": "Absolventin des ACMS-Studiengangs an der",
+    "current-work": "Software Data Operations Engineer bei",
     "featured-projects": "Gezeigte Projekte",
     "featured-courses": "Gezeigte Kurse",
     "school": "Alma Mater: ",
-    "curr-school": "University von Washington, WA, USA",
-    "curr-work": "",
+    "curr-school": "University of Washington, WA, USA",
+    "curr-work": "MAQ Software",
     "gpa": "Note: ",
-    "gpa-score": "3.54 / 4.0",
+    "gpa-score": "3.53 / 4.0",
     "loc": "Wohnort: ",
     "curr-loc": "Seattle, WA, USA",
     "major": "Hauptfach: ",
-    "curr-major": "Angewandte und rechentechnische Diplom Mathematikerin (Bachelor)",
+    "curr-major": "Angewandte und rechentechnische Diplom Mathematikerin (Bachelor of Science)",
     "tech-stack": "Tech Stack",
-    "toolbox": "Toolbox",
+    "toolbox": "Tools",
     "languages": "Programmiersprachen",
     "langs": [
         "java-coffee-cup-logo--v1",
@@ -54,7 +54,7 @@
         "SQL",
         "TypeScript"
     ],
-    "frameworks": "Programmiergerüste",
+    "frameworks": "Frameworks",
     "fmwks": [
         "bootstrap--v2",
         "tailwind_css",
@@ -81,7 +81,7 @@
         "IntelliJ IDEA",
         "Linux",
         "MySQL",
-        "PostGreeSQL",
+        "PostGreSQL",
         "pandas"
     ],
     "greeting": "Hallo!",
@@ -89,21 +89,21 @@
     "abt2": "Ich bin eine Studentin an der Universität von Washington und  studiere angewandte und rechentechnische Mathematik - das ist eine Mischung von Mathematik und Informatik sowie deren wechselseitige Beziehung. Seit ich an der Universität von Washington eingeschrieben bin, habe ich gezielt besonders herausfordernde Kurse gewählt, um möglichst viel Wissen aufzubauen. Ich bin eine Software-Entwicklerin, die in ihren bisherigen Studienprojekten bereits umfassende Erfahrung in Full-Stack-Entwicklung gesammelt hat und suche Gelegenheiten, um in Teamarbeit meine Kenntnisse in der Softwareentwicklung weiter zu verbessern. Bereits vor meinem Studium habe ich viel Erfahrung mit Teamarbeit und Führung durch mein Engagement bei ehrenamtlichen Tätigkeiten gesammelt.",
     "contact": "Interesse? Bitte kontaktiere mich gerne direkt!",
     "con1": "Ich möchte meine praktische Berufserfahrung aufbauen und suche eine Gelegenheit meine Programmierkenntnisse in Deinem Unternehmen einzubringen. Meine bisherigen Projekte kannst Du <a href='https://github.com/rina-reimer' title='Rina-Reimer Github' target='_blank' rel='noopener noreferrer'>hier</a> einsehen. Alternativ kannst Du mir gerne eine E-Mail an <a href='mailto:rinareimer616@gmail.com' title='schick mir einen email' target='_blank' rel='noopener noreferrer'>rinareimer616@gmail.com</a> senden.",
-    "data-title": "Data science education:",
+    "data-title": "Datenanalysebildung:",
     "data1": {
-        "title": "BYJU's FutureSchool",
+        "title": "BYJUs FutureSchool",
         "date": "November 2022",
         "link": "https://github.com/rina-reimer/byjus-capstones",
-        "desc": "+ Successfully completed a comprehensive weekly online Python training program comprising 200+ sessions and hands-on projects, with a strong focus on machine learning and data science.<br>+ Developed expertise in data cleaning, data visualization, and statistical analysis through 100+ practical data science projects using large, real-world datasets.<br>+ Acquired practical coding experience and in-depth understanding of 10+ machine learning algorithms, including Linear/Logistic Regression, Random Forest, and Fast Fourier Transform (FFT)."
+        "desc": "+ Erfolgreiche Absolvierung eines umfassenden, wöchentlichen Online-Python-Trainingsprogramms mit über 200 Sitzungen und praxisorientierten Projekten, wobei ein starker Schwerpunkt auf Machine Learning und Data Science lag.<br>+ Aufbau von Expertise in den Bereichen Datenbereinigung, Datenvisualisierung und statistische Analyse durch mehr als 100 praktische Data-Science-Projekte unter Verwendung großer, realer Datensätze.<br>+ Erwerb praktischer Programmiererfahrung sowie eines fundierten Verständnisses für über 10 Machine-Learning-Algorithmen, darunter Lineare/Logistische Regression, Random Forest und die Schnelle Fourier-Transformation (FFT)."
     },
     "data2": {
-        "title": "Google Data Analytics Certificate",
+        "title": "Google Datenanalyseberufszeugnis",
         "date": "August 2025",
         "link": "https://www.coursera.org/google-certificates/google-data-analytics?utm_source=google&utm_medium=institutions&utm_campaign=sou--google__med--paidsearch__cam--ha-sem-bk-exa-data__geo%E2%80%94US__con--RSA-2__ter--google%20data%20analytics%20professional%20certificate&gwg_campaign_id=22602735740&gwg_exp=null&gwg_ad_id=GCLID--Cj0KCQjwpv7NBhCzARIsADkIfWx45GB-qgqvmPfcAsZ0b2BrP5s5eKZfgxLk7aUro8RGmEng_-w7ikoaAhh_EALw_wcB__GBRAID--0AAAAADEWTLUNTpWckYTZLPfTOm9rxykh8&_gl=1*lgbehp*_gcl_aw*R0NMLjE3NzQyMTc5MzIuQ2owS0NRandwdjdOQmhDekFSSXNBRGtJZld4NDVHQi1xZ3F2bVBmY0FzWjBiMkJyUDVzNWVLWmZneExrN2FVcm84UkdtRW5nXy13N2lrb2FBaGhfRUFMd193Y0I.*_gcl_au*ODMxMDgzMzg4LjE3NzQyMTc5MzI.",
-        "desc": "+ Learned Business Intelligence concepts and technical skills, such as finding data solutions, data preparation/processing, data visualization, and how to share findings with stakeholders. <br>+ Harnessed learned skills through case studies and work problems, excelling in assessments throughout the program."
+        "desc": "+ Aneignung von Konzepten der Business Intelligence sowie technischer Kompetenzen – darunter die Entwicklung von Datenlösungen, Datenaufbereitung und -verarbeitung, Datenvisualisierung sowie die Vermittlung von Erkenntnissen an Stakeholder. <br>+ Anwendung der erworbenen Fähigkeiten im Rahmen von Fallstudien und praxisorientierten Aufgabenstellungen, wobei durchweg hervorragende Ergebnisse in den begleitenden Leistungsüberprüfungen erzielt wurden."
     },
-    "projects-title": "What I have worked on:",
-    "documentation": "Documentation",
+    "projects-title": "Meine bisherigen Projekte:",
+    "documentation": "Dokumentation",
     "project1": {
         "title": "Inhaltsabhängige Bildverzerrung",
         "active": false,
@@ -116,7 +116,7 @@
         "desc": "Dieses Java-Programm benutzt den Dijkstra-Algorithmus, um innerhalb eines Fotos den Pfad von Pixeln zu finden, der am wenigsten Energie verbraucht.",
         "longdesc": "+ Dieses Java-Programm benutzt den Dijkstra-Algorithmus, um innerhalb eines Fotos den Pfad von Pixeln zu finden, der am wenigsten Energie verbraucht.<br>+ Ich habe 3 Wochen im Team an diesem Studienprojekt im Rahmen meines Kurses Daten-Strukuren und Algorithmen gearbeitet.",
         "type": "Teamarbeit",
-        "role": "Lead Developer",
+        "role": "Haupt-Entwicklerin",
         "github": "",
         "url": ""
     },
@@ -134,7 +134,7 @@
         "desc": "Dieses Python-Programm berechnet die Spannungen auf allen Stromknoten und den jeweiligen Stromfluss zwischen den Knoten in einer vorgegebenen elektrischen Schaltung.",
         "longdesc": "+ Dieses Python-Programm berechnet die Spannungen auf allen Stromknoten und den jeweiligen Stromfluss zwischen den Knoten in einer vorgegebenen elektrischen Schaltung.<br>+ Die Markdown-Erklärungen belegen meine Kompetenz in Linearer Algebra.<br>+ Ich habe den Professor unterstützt indem ich anderen Studierenden bei ihren Projekten geholfen und dazu beigetragen habe, dass alle Studierenden die Kursaufgabe verstehen.",
         "type": "Kursprojekt",
-        "role": "Lead Developer",
+        "role": "Haupt-Entwicklerin",
         "github": "https://github.com/rina-reimer/electrical-circuit-calculator",
         "url": ""
     },
@@ -199,7 +199,7 @@
     },
     "project6": {
         "title": "PageByPage",
-        "active": true,
+        "active": false,
         "stack": [
             "figma",
             "swift",
@@ -231,20 +231,20 @@
         "desc": "Explorative Datenanalyse und interaktives Rechnen mit statistischen Methoden in R."
     },
     "class2": {
-        "title": "MATH 381: Discrete Mathematical Modeling",
+        "title": "MATH 381: Diskrete Mathematische Modellierung",
         "stack": [
             "python"
         ],
         "stack-name": [
             "Python"
         ],
-        "desc": "Introduction to methods of discrete mathematics, including topics from graph theory, network flows, and combinatorics. Emphasis on these tools to formulate models and solve problems arising in variety of applications, such as computer science, biology, and management science. "
+        "desc": "Einführung in die Methoden der diskreten Mathematik, einschließlich Themen aus der Graphentheorie, Netzflüssen und Kombinatorik. Der Schwerpunkt liegt auf dem Einsatz dieser Werkzeuge zur Modellformulierung und Problemlösung in einer Vielzahl von Anwendungsgebieten, wie etwa der Informatik, Biologie und den Wirtschaftswissenschaften."
     },
     "class3": {
-        "title": "MATH 407: Linear Optimization",
+        "title": "MATH 407: Lineare Optimierung",
         "stack": [],
         "stack-name": [],
-        "desc": "Maximization and minimization of linear functions subject to constraints consisting of linear equations and inequalities; linear programming and mathematical modeling. Simplex method, elementary games and duality."
+        "desc": "Maximierung und Minimierung linearer Funktionen unter Nebenbedingungen, die aus linearen Gleichungen und Ungleichungen bestehen; Lineare Optimierung und mathematische Modellierung. Simplex-Verfahren, elementare Spiele und Dualität."
     },
     "class4": {
         "title": "AMATH 352: Angewandte Lineare Algebra",
@@ -257,24 +257,24 @@
         "desc": "Gaußsches Eliminationsverfahren, LR-Zerlegung, QR-Zerlegung und Singulärwertzerlegung mit Python."
     },
     "class5": {
-        "title": "AMATH 383: Introduction to Continuous Mathematical Modeling",
+        "title": "AMATH 383: Einführung in Stetige Mathematische Modellierung",
         "stack": [
             "python"
         ],
         "stack-name": [
             "Python"
         ],
-        "desc": "Introductory survey of applied mathematics with emphasis on modeling of physical and biological problems in terms of differential equations. Formulation, solution, and interpretation of the results."
+        "desc": "Einführender Überblick über die Angewandte Mathematik mit Schwerpunkt auf der Modellierung physikalischer und biologischer Probleme mittels Differentialgleichungen. Formulierung, Lösung und Interpretation der Ergebnisse."
     },
     "class6": {
-        "title": "AMATH 481: Scientific Computing",
+        "title": "AMATH 481: Wissenschaftliches Rechnen",
         "stack": [
             "python"
         ],
         "stack-name": [
             "Python"
         ],
-        "desc": "Survey of numerical techniques for differential equations. Emphasis is on implementation of numerical schemes for application problems. "
+        "desc": "Überblick über numerische Verfahren für Differentialgleichungen. Der Schwerpunkt liegt auf der Implementierung numerischer Schemata für Anwendungsprobleme."
     },
     "class7": {
         "title": "CSE 123: Einführung in Programmierung III",
@@ -287,14 +287,14 @@
         "desc": "Rekursive Programmierung, Vererbung und Referenzsemantik."
     },
     "class8": {
-        "title": "CSE 340: Interaction Programming",
+        "title": "CSE 340: Interaktionsrogrammierung",
         "stack": [
             "flutter"
         ],
         "stack-name": [
             "Flutter"
         ],
-        "desc": "YYY."
+        "desc": "Benutzerschnittstellen für Rechensysteme, einschließlich Prinzipien und Implementierungstechniken. Behandelt zentrale Themen und Programmierparadigmen für interaktive Systeme, wie etwa Ereignisbehandlung, grafisches Layout, Design und Widgets, Rückgängigmachen, Barrierefreiheit sowie Kontextsensitivität."
     },
     "class9": {
         "title": "CSE 373: Zahlen-Strukturen und Algorithmen",
@@ -343,14 +343,14 @@
         "desc": "Datenmodelle, Abfragesprachen, Transaktionen, Datenbankoptimierung, Data Warehousing und Parallelität."
     },
     "class13": {
-        "title": "CSE 417: Algorithms and Computational Complexity",
+        "title": "CSE 417: Algorithmen und Berechnungskomplexität",
         "stack": [
             "java-coffee-cup-logo--v1"
         ],
         "stack-name": [
             "java"
         ],
-        "desc": "Design and analysis of algorithms and data structures. Efficient algorithms for manipulating graphs and strings. Fast Fourier Transform. Time and space complexity. NP-complete problems and undecidable problems."
+        "desc": "Entwurf und Analyse von Algorithmen und Datenstrukturen. Effiziente Algorithmen zur Manipulation von Graphen und Zeichenketten. Schnelle Fourier-Transformation. Zeit- und Speicherkomplexität. NP-vollständige und unentscheidbare Probleme."
     },
-    "footer-desc": "Immer auf der Suche nach Möglichkeiten :)"
+    "footer-desc": "Erreichen Sie mich hier!"
 }

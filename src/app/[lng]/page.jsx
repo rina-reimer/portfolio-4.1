@@ -30,20 +30,20 @@ export default function Home() {
             <div className="flex flex-col space-y-6 leading-[5dvw] px-2 w-full place-content-center xl:text-5xl lg:text-4xl md:text-3xl text-2xl">
               <div className='flex flex-row space-x-[0.5dvw]'>
                 <div className="text-dark">{t('hero')}</div>
-                <div className="text-maroon hover:text-red hover:cursor-crosshair font-extrabold" onMouseEnter={() => setShowProfile(true)} onMouseLeave={() => setShowProfile(false)}>
-                  <Link href={`${lng}/about`}>{t('name')}</Link>
+                <div onMouseEnter={() => setShowProfile(true)} onMouseLeave={() => setShowProfile(false)}>
+                  <Link className="text-maroon hover:text-red hover:cursor-crosshair font-extrabold" href={`${lng}/about`}>{t('name')}</Link>
                   <ImageHover show={showProfile} img_link={'/profile.jpeg'} alt_text={t('name')}></ImageHover>
                 </div>
               </div>
               <div className='flex flex-row space-x-[0.5dvw]'>
                 <div className="text-dark">{t('hero-2-1')}</div>
-                <div className="text-maroon hover:text-red hover:cursor-crosshair font-extrabold" onMouseEnter={() => setShowData(true)} onMouseLeave={() => setShowData(false)}>
-                  <Link href={`${lng}/data`}>{t('hero-2-2')}</Link>
+                <div onMouseEnter={() => setShowData(true)} onMouseLeave={() => setShowData(false)}>
+                  <Link className="text-maroon hover:text-red hover:cursor-crosshair font-extrabold" href={`${lng}/data`}>{t('hero-2-2')}</Link>
                   <ImageHover show={showData} img_link={'/project-3.png'} alt_text={t('hero-2-2')}></ImageHover>
                 </div>
                 <div className="text-dark">{t('hero-2-3')}</div>
-                <div className="text-maroon hover:text-red hover:cursor-crosshair font-extrabold" onMouseEnter={() => setShowDev(true)} onMouseLeave={() => setShowDev(false)}>
-                  <Link href={`${lng}/dev`}>{t('hero-2-4')}</Link>
+                <div onMouseEnter={() => setShowDev(true)} onMouseLeave={() => setShowDev(false)}>
+                  <Link className="text-maroon hover:text-red hover:cursor-crosshair font-extrabold" href={`${lng}/dev`}>{t('hero-2-4')}</Link>
                   <ImageHover show={showDev} img_link={'/project-2.png'} alt_text={t('hero-2-4')}></ImageHover>
                 </div>
               </div>
@@ -54,16 +54,16 @@ export default function Home() {
               <div className="grid grid-rows-2 justify-between space-y-3 w-full xl:text-xl md:text-lg text-sm pt-8">
                 <div className='flex md:flex-row flex-col space-x-2'>
                   <div className="text-dark">{t('current-school')}</div>
-                  <div className="text-maroon hover:text-red hover:cursor-crosshair font-extrabold" onMouseEnter={() => setShowSchool(true)} onMouseLeave={() => setShowSchool(false)}>
-                    {t('curr-school')}
-                    <ImageHover show={showSchool} img_link={'/grad.png'} alt_text={t('curr-school')}></ImageHover>
+                  <div onMouseEnter={() => setShowSchool(true)} onMouseLeave={() => setShowSchool(false)}>
+                    <a href="https://www.washington.edu/" title="University of Washington Website" target="_blank" rel="noopener noreferrer"><span className="text-maroon hover:text-red hover:cursor-crosshair font-extrabold">{t('curr-school')}</span></a>
+                    <ImageHover show={showSchool} img_link={'/uw.png'} alt_text={t('curr-school')}></ImageHover>
                   </div>
                 </div>
                 <div className='flex md:flex-row flex-col space-x-2'>
                   <div className="text-dark">{t('current-work')}</div>
                   <div className="text-maroon hover:text-red hover:cursor-crosshair font-extrabold" onMouseEnter={() => setShowWork(true)} onMouseLeave={() => setShowWork(false)}>
-                    {t('curr-work')}
-                    <ImageHover show={showWork} img_link={'/uw.png'} alt_text={t('curr-work')}></ImageHover>
+                    <a href="https://maqsoftware.com/" title="MAQ Software Website" target="_blank" rel="noopener noreferrer"><span className="text-maroon hover:text-red hover:cursor-crosshair font-extrabold">{t('curr-work')}</span></a>
+                    <ImageHover show={showWork} img_link={'/maq.png'} alt_text={t('curr-work')}></ImageHover>
                   </div>
                 </div>
               </div>

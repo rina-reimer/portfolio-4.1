@@ -21,14 +21,14 @@
     "hero-2-4": "developer",
     "hero-2-5": "researching STEM education.",
     "current-school": "ACMS graduate from the",
-    "current-work": "Looking for work",
+    "current-work": "Software Data Operations Engineer at",
     "featured-projects": "Featured Projects",
     "featured-courses": "Featured Courses",
     "school": "Alma Mater: ",
     "curr-school": "University of Washington",
-    "curr-work": "",
+    "curr-work": "MAQ Software",
     "gpa": "GPA: ",
-    "gpa-score": "3.54 / 4.0",
+    "gpa-score": "3.53 / 4.0",
     "loc": "Location: ",
     "curr-loc": "Seattle, WA",
     "major": "Major: ",
@@ -97,7 +97,7 @@
         "desc": "+ Successfully completed a comprehensive weekly online Python training program comprising 200+ sessions and hands-on projects, with a strong focus on machine learning and data science.<br>+ Developed expertise in data cleaning, data visualization, and statistical analysis through 100+ practical data science projects using large, real-world datasets.<br>+ Acquired practical coding experience and in-depth understanding of 10+ machine learning algorithms, including Linear/Logistic Regression, Random Forest, and Fast Fourier Transform (FFT)."
     },
     "data2": {
-        "title": "Google Data Analytics Certificate",
+        "title": "Google Data Analytics Professional Certificate",
         "date": "August 2025",
         "link": "https://www.coursera.org/google-certificates/google-data-analytics?utm_source=google&utm_medium=institutions&utm_campaign=sou--google__med--paidsearch__cam--ha-sem-bk-exa-data__geo%E2%80%94US__con--RSA-2__ter--google%20data%20analytics%20professional%20certificate&gwg_campaign_id=22602735740&gwg_exp=null&gwg_ad_id=GCLID--Cj0KCQjwpv7NBhCzARIsADkIfWx45GB-qgqvmPfcAsZ0b2BrP5s5eKZfgxLk7aUro8RGmEng_-w7ikoaAhh_EALw_wcB__GBRAID--0AAAAADEWTLUNTpWckYTZLPfTOm9rxykh8&_gl=1*lgbehp*_gcl_aw*R0NMLjE3NzQyMTc5MzIuQ2owS0NRandwdjdOQmhDekFSSXNBRGtJZld4NDVHQi1xZ3F2bVBmY0FzWjBiMkJyUDVzNWVLWmZneExrN2FVcm84UkdtRW5nXy13N2lrb2FBaGhfRUFMd193Y0I.*_gcl_au*ODMxMDgzMzg4LjE3NzQyMTc5MzI.",
         "desc": "+ Learned Business Intelligence concepts and technical skills, such as finding data solutions, data preparation/processing, data visualization, and how to share findings with stakeholders. <br>+ Harnessed learned skills through case studies and work problems, excelling in assessments throughout the program."
@@ -199,7 +199,7 @@
     },
     "project6": {
         "title": "PageByPage",
-        "active": true,
+        "active": false,
         "stack": [
             "figma",
             "swift",
@@ -294,7 +294,7 @@
         "stack-name": [
             "Flutter"
         ],
-        "desc": "YYY."
+        "desc": "User interfaces for computing systems, including principles and implementation techniques. Covers key topics and programming paradigms for interactive systems, such as event handling; graphical layout, design, and widgets; undo; accessibility; and context awareness."
     },
     "class9": {
         "title": "CSE 373: Data Structures and Algorithms",
@@ -352,5 +352,5 @@
         ],
         "desc": "Design and analysis of algorithms and data structures. Efficient algorithms for manipulating graphs and strings. Fast Fourier Transform. Time and space complexity. NP-complete problems and undecidable problems."
     },
-    "footer-desc": "always looking for opportunities :)"
+    "footer-desc": "reach out here!"
 }

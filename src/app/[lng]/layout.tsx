@@ -47,7 +47,7 @@ export default async function RootLayout({
           <Nav />
           <LanguageSwitcher lng={lng} />
           {children}
-          <Footer />
+          <Footer lng={lng} />
         </NextIntlClientProvider>
       </body>
     </html>

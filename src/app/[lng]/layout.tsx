@@ -1,10 +1,9 @@
-import { Radio_Canada, Geist_Mono } from "next/font/google";
+import { Radio_Canada } from "next/font/google";
 
 import Nav from "./components/Navbar";
 import LanguageSwitcher from "./components/LanguageSwitcher";
 import Footer from "./components/Footer";
 
-import { HeroUIProvider } from "@heroui/react";
 import { NextIntlClientProvider } from 'next-intl';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
@@ -27,12 +26,17 @@ export const metadata = {
 export default async function RootLayout({
   children, params
 }: { children: React.ReactNode, params: Lang }) {
-  const { lng } = await params;
+  const { lng } =  params;
 
   if (!routing.locales.includes(lng)) {
     notFound();
   }
-
+  let messages: Record<string, string> | undefined;
+  try {
+    messages = (await import(`../../../messages/${lng}.json`)).default;
+  } catch (err) {
+    notFound();
+  }
 
   return (
     <html lang={lng} dir='ltr'>
@@ -43,7 +47,7 @@ export default async function RootLayout({
         />
       </head>
       <body className={`${radio.className} bg-light dark:bg-dark`}>
-        <NextIntlClientProvider>
+        <NextIntlClientProvider locale={lng} messages={messages}>
           <Nav />
           <LanguageSwitcher lng={lng} />
           {children}

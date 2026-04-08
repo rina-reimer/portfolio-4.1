@@ -31,12 +31,7 @@ export default async function RootLayout({
   if (!routing.locales.includes(lng)) {
     notFound();
   }
-  let messages: Record<string, string> | undefined;
-  try {
-    messages = (await import(`../../../messages/${lng}.json`)).default;
-  } catch (err) {
-    notFound();
-  }
+
 
   return (
     <html lang={lng} dir='ltr'>
@@ -47,7 +42,7 @@ export default async function RootLayout({
         />
       </head>
       <body className={`${radio.className} bg-light dark:bg-dark`}>
-        <NextIntlClientProvider locale={lng} messages={messages}>
+        <NextIntlClientProvider locale={lng}>
           <Nav />
           <LanguageSwitcher lng={lng} />
           {children}

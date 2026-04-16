@@ -1,18 +1,14 @@
-import { Radio_Canada, Geist_Mono } from "next/font/google";
+import { Radio_Canada } from "next/font/google";
 
 import Nav from "./components/Navbar";
 import LanguageSwitcher from "./components/LanguageSwitcher";
 import Footer from "./components/Footer";
 
-import { HeroUIProvider } from "@heroui/react";
 import { NextIntlClientProvider } from 'next-intl';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
+import { getMessages } from 'next-intl/server';
 import "../globals.css";
-
-interface Lang {
-  lng: "en" | "de";
-}
 
 const radio = Radio_Canada({
   variable: "--font-radio-canada",
@@ -26,12 +22,14 @@ export const metadata = {
 
 export default async function RootLayout({
   children, params
-}: { children: React.ReactNode, params: Lang }) {
+}) {
   const { lng } = await params;
 
   if (!routing.locales.includes(lng)) {
     notFound();
   }
+
+  const messages = await getMessages();
 
 
   return (
@@ -43,7 +41,7 @@ export default async function RootLayout({
         />
       </head>
       <body className={`${radio.className} bg-light dark:bg-dark`}>
-        <NextIntlClientProvider>
+        <NextIntlClientProvider messages={messages}>
           <Nav />
           <LanguageSwitcher lng={lng} />
           {children}
